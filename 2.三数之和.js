@@ -1,10 +1,10 @@
-/*
- * @lc app=leetcode.cn id=15 lang=javascript
- *
- * [15] 三数之和
- */
+//给定数组 nums = [-1, 0, 1, 2, -1, -4]，
+// 满足要求的三元组集合为：
+// [
+//   [-1, 0, 1],
+//   [-1, -1, 2]
+// ]
 
-// @lc code=start
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -40,6 +40,3 @@ var threeSum = function (nums) {
     console.log(res)
     return res;
 };
-
-threeSum([-4, -1, -1, 0, 1, 2])
-// @lc code=end
